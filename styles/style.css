@@ -102,6 +102,12 @@ margin-top: -24px;
 
 /* Why  */
 
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .why .reason{
     border-radius: 16px;
 background-color: rgba(13, 19, 33, 0.02);
@@ -110,12 +116,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap: 32px;
-padding-bottom:  80px; ;
+padding:  80px 97px ;
+max-width: 1140px;
 }
 
 
 
-.reason h3{
+.sec-head{
     color: rgba(13, 19, 33, 1);
 
 font-family: Azeret Mono;
@@ -124,9 +131,8 @@ font-weight: 800;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
-margin-top: 86px;
 }
-.reason p{
+.sec-sub{
     color: rgba(13, 19, 33, 1);
 
 font-family: Azeret Mono;
@@ -220,4 +226,30 @@ margin-bottom: 10px;
   background-color:  rgba(13, 19, 33, 1); 
   color:rgba(255, 255, 255, 1);
 
+}
+
+
+
+/* Inspiration */
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inspiration div{
+    width: 1140px;
+height: 614px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
+
+
+.inspiration div iframe{
+width: 1076px;
+height: 550px;
+margin: 32px;
+border-radius: 16px;
 }
