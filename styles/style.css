@@ -53,8 +53,7 @@ nav .btn-container:hover{
 nav .btn-container:active{
  transform: translateY(0);
   top: 0;
-  background-color: rgba(13, 19, 33, 1);   /* Reverse background */
-            /* Reverse text color */
+  background-color: rgba(13, 19, 33, 1); 
 }
 nav .btn-container a:active{
     color:rgba(255, 255, 255, 1);}
@@ -151,4 +150,37 @@ background: linear-gradient(90.00deg, rgba(255, 255, 255, 1),rgba(255, 255, 255,
     border-radius: 16px;
 
 background: linear-gradient(270.00deg, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+/* Learn More Button */
+
+.why .r-container button{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.7);
+opacity: 0.7;
+padding: 12px 20px;
+cursor: pointer;
+
+}
+.why .r-container button:hover{
+     transform: translateY(-2px);
+  top: -2px;
+}
+
+.why .r-container button:active{
+ transform: translateY(0);
+  top: 0;
+  background-color:  rgba(13, 19, 33, 1); 
+  color:rgba(255, 255, 255, 1);
+
 }
