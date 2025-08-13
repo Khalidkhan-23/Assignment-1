@@ -383,7 +383,9 @@ footer{
     background-repeat: no-repeat;
     padding: 64px 48px;
     width: 1140px;
-height: 365px;
+height: 313px;
+  background-position: center; 
+  background-size: cover;  
 
 }
 
@@ -400,4 +402,63 @@ height: 365px;
     align-items: center;
     justify-content: center;
 
+}
+
+.submit textarea{
+    padding: 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    width: 548px;
+height: 57px;
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+resize: none;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgba(255, 255, 255, 1);
+}
+
+.submit{
+    display: flex;
+    gap: 16px;
+
+}
+
+.submit button{
+    color: rgba(13, 19, 33, 1);
+width: 120px;
+height: 57px;
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+padding: 17px 20px;
+border-radius: 8px;
+cursor: pointer;
+
+background: rgba(255, 255, 255, 1);
+}
+.submit button:hover{
+transform: translateY(-2px);
+    top: -2px;
+}
+
+.submit button:active{
+    transform: translateY(0);
+    top: 0;
+    background-color: rgba(13, 19, 33, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.submit textarea:focus{
+    outline: none;
+    color: rgb(0, 0, 0);
 }
