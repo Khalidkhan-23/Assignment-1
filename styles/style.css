@@ -147,7 +147,7 @@ nav .btn-container a:active {
 
 /* Main */
 main {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 /* Why  */
@@ -318,6 +318,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 250px;
 }
 
 .target>div {
@@ -407,6 +408,84 @@ main {
     background: rgba(255, 223, 0, 0.5);
 }
 
+
+
+/* Next Target */
+
+.n-target{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 24px ;
+}
+
+.s-container{
+    width: 1140px;
+height: 219px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+
+background: rgba(255, 255, 255, 1);
+gap: 24px;
+
+}
+.s-container:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.s-container h4{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 0px;
+margin-bottom: 14px;
+}
+
+.s-container p{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+
+.s-container a{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+
+#react:hover{
+    background: rgba(97, 218, 251, 0.1);
+}
+
+#node:hover{
+    background: rgba(51, 51, 51, 0.1);
+}
+
+#mongo:hover{
+    background: rgba(108, 172, 72, 0.1);
+}
 
 
 /* Footer */
