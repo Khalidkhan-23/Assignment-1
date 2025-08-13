@@ -132,13 +132,14 @@ nav .btn-container a:active {
     color: rgba(255, 255, 255, 1);
     font-family: Azeret Mono;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
 }
-.hero button:hover{
+
+.hero button:hover {
     transform: translateY(-2px);
     top: -2px;
 }
@@ -417,7 +418,7 @@ footer {
 
 .footer {
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.5);
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     padding: 64px 48px;
@@ -425,7 +426,7 @@ footer {
     height: 313px;
     background-position: center;
     background-size: cover;
-
+    background-blend-mode: darken;
 }
 
 .footer .sec-head {
@@ -501,4 +502,35 @@ footer {
 .submit textarea:focus {
     outline: none;
     color: rgb(0, 0, 0);
+}
+
+
+/* End Info */
+
+.credit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 526px;
+}
+.credit h4{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.credit div{
+    display: flex;
+    justify-content: center;
+    gap: 24px ;
+}
+.credit div a:hover{
+    transform: translatey(-2px);
+    top: -2px;
+
 }
