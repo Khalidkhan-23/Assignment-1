@@ -105,7 +105,50 @@ margin-top: -24px;
 
 .why .reason{
     border-radius: 16px;
-
-background-color:  rgba(0, 75, 250, 0.02);
+background-color: rgba(13, 19, 33, 0.02);
 margin: 74px 152px 17px 148px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+.reason h3{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 86px;
+}
+.reason p{
+    color: rgba(13, 19, 33, 1);
+
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: -5px;
+}
+
+.why .r-container{
+    display: flex;
+}
+.why .r-side{
+
+
+    border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0) 100%);
+
+}
+.why .l-side{
+    border-radius: 16px;
+
+background: linear-gradient(270.00deg, rgba(255, 255, 255, 1),rgba(255, 255, 255, 0) 100%);
 }
